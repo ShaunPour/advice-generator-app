@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope';
+    font-weight: 800;
+}
+
+.advice-div {
+    position: relative;
+    top: 42vh;
+    background-color: hsl(217, 19%, 24%);
+    color: hsl(193, 38%, 86%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.advice-title {
+    color: hsl(150, 100%, 66%);
+}
+
+.advice-text {
+    font-size: 28px;
+    width: 85%;
+}
+
+.dice-btn {
+    position: relative;
+    top: 4.9em;
+    background: hsl(150, 100%, 66%);
+    cursor: pointer;
+    padding: 1.2em;
+    border-radius: 50%;
+}
+
+.dice-btn:hover {
+    background-color: hsl(150, 100%, 76%);
+}
+
+@media(min-width: 1440px) {
+    .advice-div {
+        width: 35%;
+    }
+    body  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+@media(min-width: 2560px) {
+    .advice-div {
+        width: 25%;
+    }
+}

@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> <!-- Displays my project's logo in the tab when opened in a browser for some extra customization. -->
+  <link rel="import" href="https://fonts.google.com/specimen/Manrope">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Advice generator app</title>
 </head>
 <body>
+  <!--This outer div contains my content being pushed from the api-->
   <div class="advice-div">
     <h2 class="advice-title">Advice #<!-- Advice ID goes here --></h2>
   <p class="advice-text">"<!-- Advice text goes here -->"</p>
+  <img class="divider-img" src="images/pattern-divider-mobile.svg" alt="" srcset=""> <!--The divider to separate the contents of the quote from my button to spin up a new one-->
+  <div class="dice-btn"> <!--This div contains an svg image of a dice. The div is there to let me modify the padding surrounding the image without touuchhing the image so I can have a square image inside rounded padding.-->
+  <img class="dice-img" src="images/icon-dice.svg" alt="" srcset="">
+</div>
   </div>
   <script src="js/app.js"></script>
 </body>

@@ -1,4 +1,4 @@
-# Frontend Mentor - Advice generator app solution
+ # Frontend Mentor - Advice generator app solution
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code Repository](https://github.com/DarkPhoenixNinja92/advice-generator-app)
-- Live Site URL: [Live Site URL](https://darkphoenixninja92.github.io/advice-generator-app/)
+- Solution URL: [Code Repository](https://github.com/ShaunPour/advice-generator-app)
+- Live Site URL: [Live Site URL](https://shaunpour.github.io/advice-generator-app/)
 
 ### Built with
 
@@ -48,4 +48,4 @@ as these are areas which I still do not have a lot of experience in.
 
 - Website - [Shaun Pour](https://shaunpourdev.com)
 - Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/DarkPhoenixNinja92)
-- GitHub - [DarkPhoenixNinja92](https://www.github.com/DarkPhoenixNinja92)
+- GitHub - [ShaunPour](https://www.github.com/ShaunPour)
